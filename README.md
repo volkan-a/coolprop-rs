@@ -26,7 +26,7 @@ The C++ bindings can be used with:
 Rust:
 
 ```Rust
-use coolprop-rs::bindings::*;
+use coolprop_rs::bindings::*;
 ```
 
 The subset of Rust methods are at the moment **PropsSI()** and **HAPropsSI()**:
@@ -34,7 +34,7 @@ The subset of Rust methods are at the moment **PropsSI()** and **HAPropsSI()**:
 Rust:
 
 ```Rust
-use coolprop-rs;
+use coolprop_rs;
 println!("{:?}", coolprop-rs::PropsSI("H", "T", 300.0, "Q", 1.0, "R134a").unwrap());
 println!("{:?}", coolprop-rs::HAPropsSI("H", "T", 300.0, "P", 100000.0, "R", 0.0).unwrap());
 ```
